@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+}
+
+html {
+  font-size: large;
+  background-color: bisque;
+}
+
+h1 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+p {
+  text-transform: capitalize;
+}
+
+.header {
+  background-color: burlywood;
+}
+
+.header p {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.card {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.aboutme img {
+  margin-right: 50px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  float: left;
+}
+
+.highlight {
+  color: midnightblue;
+}
+
+.aboutme {
+  height: 200px;
+}
+
+footer {
+  background-color: burlywood;
+  text-align: center;
+  padding: 10px;
+}
+
+@media (min-width: 661px) and (max-width: 840px) {
+  html {
+    font-size: smaller;
+  }
+
+  .header {
+    text-align: center;
+  }
+  .aboutme {
+    height: 100px;
+  }
+  .aboutme img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width: 660px) {
+  html {
+    font-size: xx-small;
+  }
+
+  .header {
+    text-align: center;
+  }
+  .aboutme {
+    height: 50px;
+  }
+  .aboutme img {
+    width: 50px;
+    height: 50px;
+  }
+}
